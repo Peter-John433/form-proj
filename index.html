@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css" integrity="sha512-gMjQeDaELJ0ryCI+FtItusU9MkAifCZcGq789FrzkiM49D8lbDhoaUaIX4ASU187wofMNlgBJ4ckbrXM9sE6Pg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- javascript link -->
+    <script src="./js/main.js"></script>
+    <!-- toolbar logo link -->
+    <link rel="icon" type="image/x-icon" href="./img/HTML5_logo_and_wordmark.svg.png">
+    <!-- my fontawesome cdn link -->
+   <script src="https://kit.fontawesome.com/7e676ec2e2.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <div class="job-opp">
+          <h1>america job opportunity</h1>
+          <p class="hire">we're hiring...</p>
+          <p class="bottom-left"><a href="mailto:peterjeche442@gmail.com">Kindly send us a mail...</a></p>
+        </div>
+      </header>
+      <!-- social-handles -->
+      <div class="social-handles">
+        <a href="https:www.facebook.com" target="_blank" title="login your facebook account"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https:www.instagram.com" target="_blank" title="login your instagram account"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https:www.linkedin.com" target="_blank" title="login your linkdlin account"><i class="fa-brands fa-linkedin"></i></a>
+       <a href="https:www.whatsapp.com" target="_blank" title="login your whatsapp account"> <i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+      <!-- myform -->
+      <div class="myform">
+        <h1>login form</h1>
+        <form action="/action_page.php" method="post" autocomplete="on" name="myform" target="_blank">
+          <div class="form-group">
+            <label for="fname">fullname</label>
+            <div class="input-field">
+              <!-- <i class="fa-solid fa-user fa-beat-fade"></i> -->
+              <input 
+                type="text" 
+                name="fullname" 
+                id="fname" 
+                placeholder="Enter" 
+                title="enter your fullname" 
+                required 
+              >
+            </div>
+          </div>
+
+        <div class="input-field">
+          <!-- <i class="fa-sharp fa-solid fa-envelope fa-beat-fade"></i> -->
+          <label for="email">email</label>
+          <input type="email" name="email" id="email" placeholder="Enter" title="enter your email address" required >
+        </div>
+
+        <div class="input-field">
+          <!-- <i class="fa-sharp fa-solid fa-lock fa-beat-fade"></i> -->
+          <label for="password">password</label>
+          <input type="password" name="password" id="password" placeholder="Enter" title="enter your password" required >
+        </div>
+
+        <div class="input-field">
+          <label for="confirm-pword">confirm password</label>
+          <!-- <i class="fa-sharp fa-solid fa-lock fa-lock-2 fa-beat-fade"></i> -->
+          <input type="password" name="confirm-pword" id="confirm-pword" placeholder="Re-enter" title="re-enter your password" required >
+        </div>
+
+        <div class="submit-form">
+          <p>forgotten password? <a href="#">click here</a></p>
+          <input type="submit" name="submit" id="submit" value="submit" required >
+        </div>
+        </form>
+      </div>
+
+      <!-- footer -->
+      <footer>
+        <p>visite our site@<a href="#">America-job-opportunity.com</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
